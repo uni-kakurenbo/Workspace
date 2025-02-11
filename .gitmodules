@@ -1,0 +1,9 @@
+[submodule "Web/76th-hokuryo-sai"]
+	path = Web/76th-hokuryo-sai
+	url = https://github.com/76th-Hokuryo-Sai-Eiki/web.git
+[submodule "Study/advanced-tree"]
+	path = Study/advanced-tree
+	url = https://github.com/uni-kakurenbo/study_advanced-tree.git
+[submodule "CompetitiveProgramming"]
+	path = CompetitiveProgramming
+	url = https://github.com/uni-kakurenbo/cp-workspace.git
