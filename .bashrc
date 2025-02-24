@@ -52,6 +52,11 @@ alias main="git switch main"
 alias push="git status"
 alias push="git push"
 
+function delete() {
+    git branch -D "$1"
+    git branch -D "test/$1"
+}
+
 alias drop-cache="sudo bash -c 'echo 3 >/proc/sys/vm/drop_caches && swapoff -a && swapon -a'"
 
 function remove-submodule() {
