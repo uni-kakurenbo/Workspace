@@ -1,0 +1,321 @@
+{
+    "folders": [
+        {
+            "name": "Realtime - AtCoder",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/realtime/AtCoder"
+        },
+        {
+            "name": "Realtime - Codeforces",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/realtime/Codeforces"
+        },
+        {
+            "name": "Practice - AtCoder",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/practice/AtCoder"
+        },
+        {
+            "name": "Practice - Codeforces",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/practice/Codeforces"
+        },
+        {
+            "name": "Virtual - AtCoder",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/virtual/AtCoder"
+        },
+        {
+            "name": "Virtual - Codeforces",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/virtual/Codeforces"
+        },
+        {
+            "name": "Solutions",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions"
+        },
+        {
+            "name": "Library",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/libraries/uni"
+        },
+        {
+            "name": "Includes",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/libraries"
+        },
+        {
+            "name": "Templates",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/templates"
+        },
+        {
+            "name": "Original",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/original"
+        },
+        {
+            "name": "Commands",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/commands"
+        },
+        {
+            "name": "TGC",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/original/contests/TGC"
+        },
+        {
+            "name": "ALGORI",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/others/ALGORI"
+        },
+        {
+            "name": "CXX23-GCC13",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/others/AtCoder-language-update_2024-11/CXX23-GCC13"
+        },
+        {
+            "name": "Competitive Programming",
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming"
+        },
+        {
+            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main"
+        }
+    ],
+    "remoteAuthority": "wsl+ubuntu-main",
+    "settings": {
+        // ---------- Language ----------
+        "[tex]": {
+            // スニペット補完中にも補完を使えるようにする
+            "editor.suggest.snippetsPreventQuickSuggestions": false,
+            // インデント幅を2にする
+            "editor.tabSize": 2
+        },
+        "[latex]": {
+            // スニペット補完中にも補完を使えるようにする
+            "editor.suggest.snippetsPreventQuickSuggestions": false,
+            // インデント幅を2にする
+            "editor.tabSize": 2
+        },
+        "[bibtex]": {
+            // インデント幅を2にする
+            "editor.tabSize": 2
+        },
+        // ---------- LaTeX Workshop ----------
+        // 使用パッケージのコマンドや環境の補完を有効にする
+        "latex-workshop.intellisense.package.enabled": true,
+        // 生成ファイルを削除するときに対象とするファイル
+        // デフォルト値に "*.synctex.gz" を追加
+        "latex-workshop.latex.clean.fileTypes": [
+            "*.aux",
+            "*.bbl",
+            "*.blg",
+            "*.idx",
+            "*.ind",
+            "*.lof",
+            "*.lot",
+            "*.out",
+            "*.toc",
+            "*.acn",
+            "*.acr",
+            "*.alg",
+            "*.glg",
+            "*.glo",
+            "*.gls",
+            "*.ist",
+            "*.fls",
+            "*.log",
+            "*.fdb_latexmk",
+            "*.snm",
+            "*.nav",
+            "*.dvi",
+            "*.synctex.gz"
+        ],
+        // 生成ファイルを "out" ディレクトリに吐き出す
+        "latex-workshop.latex.outDir": "out",
+        // ビルドのレシピ
+        "latex-workshop.latex.recipes": [
+            {
+                "name": "latexmk",
+                "tools": ["latexmk"]
+            }
+        ],
+        // ビルドのレシピに使われるパーツ
+        "latex-workshop.latex.tools": [
+            {
+                "name": "latexmk",
+                "command": "latexmk",
+                "args": ["-silent", "-outdir=%OUTDIR%", "%DOC%"]
+            }
+        ],
+        "editor.suggest.showWords": false,
+        "editor.snippetSuggestions": "top",
+        "editor.suggestSelection": "recentlyUsedByPrefix",
+        "maptz.regionfolder": {
+            "[cpp]": {
+                "defaultFoldStartRegex": "\\/*[\\s]*#region[\\s]*(.*)",
+                "foldEnd": "/* #endregion */",
+                "foldEndRegex": "\\/*[\\s]*#endregion",
+                "foldStart": "/* #region [NAME] */",
+                "foldStartRegex": "\\/*[\\s]*#region[\\s]*(.*)"
+            },
+            "[python]": {
+                "defaultFoldStartRegex": "#[\\s]*region[\\s]*(.*)",
+                "foldEnd": "#endregion",
+                "foldEndRegex": "#[\\s]*endregion",
+                "foldStart": "#region [NAME]",
+                "foldStartRegex": "#[\\s]*region[\\s]*(.*)"
+            }
+        },
+        "workbench.colorTheme": "Atom One Dark",
+        "cSpell.enabled": false,
+        "[python]": {
+            "editor.wordBasedSuggestions": "matchingDocuments"
+        },
+        "python.linting.enabled": true,
+        "python.languageServer": "Pylance",
+        "python.analysis.completeFunctionParens": true,
+        "python.analysis.extraPaths": [
+            "/home/uni_kakurenbo/.local/lib/python3.8/site-packages"
+        ],
+        "python.autoComplete.extraPaths": [
+            "/home/uni_kakurenbo/.local/lib/python3.8/site-packages"
+        ],
+        "files.associations": {
+            "*.pc": "yaml",
+            "array": "cpp",
+            "atomic": "cpp",
+            "bitset": "cpp",
+            "chrono": "cpp",
+            "complex": "cpp",
+            "condition_variable": "cpp",
+            "cwchar": "cpp",
+            "deque": "cpp",
+            "list": "cpp",
+            "exception": "cpp",
+            "fstream": "cpp",
+            "functional": "cpp",
+            "future": "cpp",
+            "initializer_list": "cpp",
+            "iosfwd": "cpp",
+            "istream": "cpp",
+            "mutex": "cpp",
+            "new": "cpp",
+            "ostream": "cpp",
+            "ratio": "cpp",
+            "scoped_allocator": "cpp",
+            "shared_mutex": "cpp",
+            "sstream": "cpp",
+            "stdexcept": "cpp",
+            "streambuf": "cpp",
+            "thread": "cpp",
+            "tuple": "cpp",
+            "type_traits": "cpp",
+            "typeindex": "cpp",
+            "utility": "cpp",
+            "valarray": "cpp",
+            "random": "cpp",
+            "optional": "cpp",
+            "iostream": "cpp",
+            "string": "cpp",
+            "cmath": "cpp",
+            "any": "cpp",
+            "bit": "cpp",
+            "*.tcc": "cpp",
+            "cctype": "cpp",
+            "cfenv": "cpp",
+            "charconv": "cpp",
+            "cinttypes": "cpp",
+            "clocale": "cpp",
+            "codecvt": "cpp",
+            "csetjmp": "cpp",
+            "csignal": "cpp",
+            "cstdarg": "cpp",
+            "cstddef": "cpp",
+            "cstdint": "cpp",
+            "cstdio": "cpp",
+            "cstdlib": "cpp",
+            "cstring": "cpp",
+            "ctime": "cpp",
+            "cuchar": "cpp",
+            "cwctype": "cpp",
+            "forward_list": "cpp",
+            "map": "cpp",
+            "set": "cpp",
+            "unordered_map": "cpp",
+            "unordered_set": "cpp",
+            "vector": "cpp",
+            "algorithm": "cpp",
+            "iterator": "cpp",
+            "memory": "cpp",
+            "memory_resource": "cpp",
+            "numeric": "cpp",
+            "regex": "cpp",
+            "string_view": "cpp",
+            "system_error": "cpp",
+            "iomanip": "cpp",
+            "limits": "cpp",
+            "typeinfo": "cpp",
+            "variant": "cpp",
+            "debug": "cpp",
+            "modint": "cpp",
+            "dsu": "cpp",
+            "cassert": "cpp",
+            "queue": "cpp",
+            "*.gch": "cpp",
+            "*.cppa": "cpp",
+            "stack": "cpp",
+            "print": "cpp",
+            "output": "cpp",
+            "template": "cpp",
+            "segtree": "cpp",
+            "maxflow": "cpp",
+            "fenwicktree": "cpp",
+            "*.expanded": "cpp",
+            "input": "cpp",
+            "barrier": "cpp",
+            "compare": "cpp",
+            "concepts": "cpp",
+            "coroutine": "cpp",
+            "source_location": "cpp",
+            "latch": "cpp",
+            "numbers": "cpp",
+            "ranges": "cpp",
+            "semaphore": "cpp",
+            "span": "cpp",
+            "stop_token": "cpp",
+            "syncstream": "cpp",
+            "expected": "cpp",
+            "spanstream": "cpp",
+            "stacktrace": "cpp",
+            "internal_type_traits": "cpp",
+            "internal_bit": "cpp",
+            "internal_math": "cpp",
+            "mincostflow": "cpp",
+            "strstream": "cpp",
+            "*.ipp": "cpp",
+            "rope": "cpp",
+            "slist": "cpp",
+            "internal_queue": "cpp",
+            "ios": "cpp",
+            "math": "cpp",
+            "convolution": "cpp",
+            "*.inc": "cpp",
+            "io_context": "cpp",
+            "executor": "cpp",
+            "netfwd": "cpp",
+            "timer": "cpp",
+            "00": "cpp",
+            "format": "cpp",
+            "stdfloat": "cpp",
+            "text_encoding": "cpp",
+            "generator": "cpp",
+            "view": "cpp",
+            "decimal": "cpp",
+            "fft": "cpp",
+            "matrixfunctions": "cpp",
+            "hash_map": "cpp",
+            "simd": "cpp",
+            "__config": "cpp"
+        },
+        "todohighlight.isCaseSensitive": false,
+        "todohighlight.keywords": [
+            {
+                "text": "until",
+                "color": "#F92672",
+                "backgroundColor": "rgba(0,0,0,0)"
+            }
+        ],
+        "todohighlight.exclude": ["**/.vscode/**"],
+        "python.analysis.autoImportCompletions": true,
+        "search.useGlobalIgnoreFiles": false,
+        "search.useIgnoreFiles": false,
+        "cSpell.words": ["shortstat"]
+    }
+}
