@@ -7,3 +7,6 @@
 [submodule "CompetitiveProgramming"]
 	path = CompetitiveProgramming
 	url = https://github.com/uni-kakurenbo/cp-workspace.git
+[submodule "Development/git-redirect-resolver"]
+	path = Development/git-redirect-resolver
+	url = https://github.com/uni-kakurenbo/git-redirect-resolver.git
