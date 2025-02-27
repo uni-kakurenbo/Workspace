@@ -2,70 +2,55 @@
     "folders": [
         {
             "name": "Realtime - AtCoder",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/realtime/AtCoder"
-        },
-        {
-            "name": "Realtime - Codeforces",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/realtime/Codeforces"
+            "path": "CompetitiveProgramming/sources/solutions/realtime/AtCoder"
         },
         {
             "name": "Practice - AtCoder",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/practice/AtCoder"
-        },
-        {
-            "name": "Practice - Codeforces",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/practice/Codeforces"
+            "path": "CompetitiveProgramming/sources/solutions/practice/AtCoder"
         },
         {
             "name": "Virtual - AtCoder",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/virtual/AtCoder"
+            "path": "CompetitiveProgramming/sources/solutions/virtual/AtCoder"
         },
         {
-            "name": "Virtual - Codeforces",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions/virtual/Codeforces"
-        },
-        {
-            "name": "Solutions",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/solutions"
+            "name": "Solution",
+            "path": "CompetitiveProgramming/sources/solutions"
         },
         {
             "name": "Library",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/libraries/uni"
+            "path": "CompetitiveProgramming/sources/libraries/uni"
         },
         {
-            "name": "Includes",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/libraries"
+            "name": "Include",
+            "path": "CompetitiveProgramming/sources/libraries"
         },
         {
             "name": "Templates",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/sources/templates"
+            "path": "CompetitiveProgramming/sources/templates"
         },
         {
             "name": "Original",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/original"
+            "path": "CompetitiveProgramming/original"
         },
         {
             "name": "Commands",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/commands"
-        },
-        {
-            "name": "TGC",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/original/contests/TGC"
-        },
-        {
-            "name": "ALGORI",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/others/ALGORI"
+            "path": "CompetitiveProgramming/commands"
         },
         {
             "name": "CXX23-GCC13",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming/others/AtCoder-language-update_2024-11/CXX23-GCC13"
+            "path": "CompetitiveProgramming/others/AtCoder-language-update_2024-11/CXX23-GCC13"
         },
         {
             "name": "Competitive Programming",
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main/CompetitiveProgramming"
+            "path": "CompetitiveProgramming"
         },
         {
-            "uri": "vscode-remote://wsl+ubuntu-main/home/uni_kakurenbo/Main"
+            "name": "Game",
+            "path": "Game"
+        },
+        {
+            "name": "Main",
+            "path": "."
         }
     ],
     "remoteAuthority": "wsl+ubuntu-main",
