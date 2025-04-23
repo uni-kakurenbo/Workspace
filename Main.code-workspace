@@ -287,7 +287,14 @@
             "matrixfunctions": "cpp",
             "hash_map": "cpp",
             "simd": "cpp",
-            "__config": "cpp"
+            "__config": "cpp",
+            "__bit_reference": "cpp",
+            "__hash_table": "cpp",
+            "__node_handle": "cpp",
+            "__split_buffer": "cpp",
+            "__tree": "cpp",
+            "__verbose_abort": "cpp",
+            "locale": "cpp"
         },
         "todohighlight.isCaseSensitive": false,
         "todohighlight.keywords": [

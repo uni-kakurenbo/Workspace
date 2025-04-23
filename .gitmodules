@@ -4,9 +4,9 @@
 [submodule "Study/advanced-tree"]
 	path = Study/advanced-tree
 	url = https://github.com/uni-kakurenbo/study_advanced-tree.git
-[submodule "CompetitiveProgramming"]
-	path = CompetitiveProgramming
-	url = https://github.com/uni-kakurenbo/cp-workspace.git
 [submodule "Development/git-redirect-resolver"]
 	path = Development/git-redirect-resolver
 	url = https://github.com/uni-kakurenbo/git-redirect-resolver.git
+[submodule "CompetitiveProgramming"]
+	path = CompetitiveProgramming
+	url = https://github.com/uni-kakurenbo/cp-workspace.git
