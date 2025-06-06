@@ -22,25 +22,18 @@ export PATH="/home/uni_kakurenbo/.local/bin:$PATH"
 alias colors="~/.local/lib/256-colors.sh"
 
 alias ccore="~/Main/CompetitiveProgramming/commands/ccore.sh"
-
 alias slc="source ~/Main/CompetitiveProgramming/commands/focus.sh"
 alias abc="slc abc"
 alias arc="slc arc"
 alias agc="slc agc"
 alias ahc="slc ahc"
-
 alias op="~/Main/CompetitiveProgramming/commands/open.sh"
 alias fd="~/Main/CompetitiveProgramming/commands/find.sh"
-
 alias jp="~/Main/CompetitiveProgramming/commands/jump.sh"
-
 alias ts="~/Main/CompetitiveProgramming/commands/test.sh"
-
 alias sub="~/Main/CompetitiveProgramming/commands/submit.sh"
 alias clp="~/Main/CompetitiveProgramming/commands/clip.sh"
-
 alias docs="~/Main/CompetitiveProgramming/commands/docs.sh"
-
 alias pre-compile="~/Main/CompetitiveProgramming/commands/pre-compile.sh"
 
 alias open="powershell.exe /c start"
@@ -51,6 +44,7 @@ alias fixup="git commit --fixup"
 alias main="git switch main"
 alias push="git status"
 alias push="git push"
+alias prune-test="git branch --list 'test/*' | xargs git branch -D"
 
 function delete() {
     git branch -D "$1"
