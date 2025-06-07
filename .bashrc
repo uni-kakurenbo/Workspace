@@ -1,7 +1,10 @@
 #! /bin/bash
 
 # shellcheck source=/dev/null
-source "$HOME/python-env/bin/activate"
+function py-env() {
+    source "${HOME}/python-env/bin/activate"
+}
+py-env
 
 eval "$(
     oh-my-posh init --config ~/Main/terminal.omp.json bash
