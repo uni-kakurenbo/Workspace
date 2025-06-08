@@ -138,7 +138,7 @@
                 "foldStartRegex": "#[\\s]*region[\\s]*(.*)"
             }
         },
-        "workbench.colorTheme": "Atom One Dark",
+        "workbench.colorTheme": "Monokai",
         "cSpell.enabled": false,
         "[python]": {
             "editor.wordBasedSuggestions": "matchingDocuments"
@@ -296,7 +296,11 @@
             "__verbose_abort": "cpp",
             "locale": "cpp",
             "dynamic_bitset": "cpp",
-            "__locale": "cpp"
+            "__locale": "cpp",
+            "version": "cpp",
+            "*.def": "cpp",
+            "flat_set": "cpp",
+            "flat_map": "cpp"
         },
         "todohighlight.isCaseSensitive": false,
         "todohighlight.keywords": [
