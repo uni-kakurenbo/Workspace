@@ -10,3 +10,12 @@
 [submodule "CompetitiveProgramming"]
 	path = CompetitiveProgramming
 	url = https://github.com/uni-kakurenbo/cp-workspace.git
+[submodule "Web/naro/develop/naro-template"]
+	path = Web/naro/develop/naro-template
+	url = https://github.com/uni-kakurenbo/naro-template.git
+[submodule "Web/naro/develop/naro-template-backend"]
+	path = Web/naro/develop/naro-template-backend
+	url = https://github.com/traPtitech/naro-template-backend.git
+[submodule "Web/h25s_01"]
+	path = Web/h25s_01
+	url = https://github.com/traP-jp/h25s_01.git

@@ -41,12 +41,20 @@
             "path": "CompetitiveProgramming/others/AtCoder-language-update_2024-11/CXX23-GCC13"
         },
         {
+            "name": "naro-template",
+            "path": "Web/naro/develop/naro-template"
+        },
+        {
             "name": "Competitive Programming",
             "path": "CompetitiveProgramming"
         },
         {
             "name": "Game",
             "path": "Game"
+        },
+        {
+            "name": "h25s_01",
+            "path": "Web/h25s_01"
         },
         {
             "name": "Main",
@@ -138,7 +146,7 @@
                 "foldStartRegex": "#[\\s]*region[\\s]*(.*)"
             }
         },
-        "workbench.colorTheme": "Monokai",
+        "workbench.colorTheme": "Atom One Dark",
         "cSpell.enabled": false,
         "[python]": {
             "editor.wordBasedSuggestions": "matchingDocuments"
