@@ -19,3 +19,9 @@
 [submodule "Web/h25s_01"]
 	path = Web/h25s_01
 	url = https://github.com/traP-jp/h25s_01.git
+[submodule "Web/NeoShowcase"]
+	path = Web/NeoShowcase
+	url = https://github.com/traPtitech/NeoShowcase.git
+[submodule "CTF/workshop"]
+	path = CTF/workshop
+	url = https://github.com/uni-kakurenbo/trap-workshop-ctf.git

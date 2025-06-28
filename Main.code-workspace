@@ -308,7 +308,8 @@
             "version": "cpp",
             "*.def": "cpp",
             "flat_set": "cpp",
-            "flat_map": "cpp"
+            "flat_map": "cpp",
+            "stdio.h": "c"
         },
         "todohighlight.isCaseSensitive": false,
         "todohighlight.keywords": [
