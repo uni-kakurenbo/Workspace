@@ -4,7 +4,6 @@
 function py-env() {
     source "${HOME}/python-env/bin/activate"
 }
-py-env
 
 eval "$(
     oh-my-posh init --config ~/Main/terminal.omp.json bash
@@ -21,6 +20,10 @@ export USE_CCACHE=1
 export CCACHE_DIR=/root/.ccache
 
 export PATH="/home/uni_kakurenbo/.local/bin:$PATH"
+
+export OPENSSL_INCLUDE_DIR="/usr/include/openssl"
+export OPENSSL_DIR="/usr/include/openssl"
+export OPENSSL_LIB_DIR="/usr/lib/x86_64-linux-gnu"
 
 alias colors="~/.local/lib/256-colors.sh"
 
@@ -68,3 +71,5 @@ function remove-submodule() {
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
+
+py-env
