@@ -36,7 +36,7 @@ export USE_CCACHE=1
 export CCACHE_DIR=/root/.ccache
 
 export PATH="/home/uni_kakurenbo/.local/bin:$PATH"
-export PATH="$PATH:/usr/local/go/bin"
+export PATH="/usr/local/go/bin:$PATH"
 
 export OPENSSL_INCLUDE_DIR="/usr/include/openssl"
 export OPENSSL_DIR="/usr/include/openssl"
