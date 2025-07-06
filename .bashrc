@@ -13,6 +13,22 @@ function chrome() {
     "/mnt/c/Program Files/Google/Chrome/Application/chrome.exe" "$(wslpath -w "$(realpath "$1")")"
 }
 
+function build() {
+    LIBRARY_PATH="${HOME}/Main/CompetitiveProgramming/sources/libraries/"
+    ccache g++ \
+        -std=gnu++23 \
+        -fdiagnostics-color=always \
+        -Wno-misleading-indentation \
+        -Wall -Wextra -Wdangling-reference \
+        -fdiagnostics-all-candidates -fconcepts-diagnostics-depth=5 \
+        -Wno-char-subscripts \
+        -fsplit-stack \
+        -I"$HOME/boost/" \
+        -I"$LIBRARY_PATH/ac-library/" \
+        -I"$LIBRARY_PATH/uni/" \
+        "$@"
+}
+
 # shellcheck source=/dev/null
 . "$HOME/Main/secrets.sh"
 
@@ -20,6 +36,7 @@ export USE_CCACHE=1
 export CCACHE_DIR=/root/.ccache
 
 export PATH="/home/uni_kakurenbo/.local/bin:$PATH"
+export PATH="$PATH:/usr/local/go/bin"
 
 export OPENSSL_INCLUDE_DIR="/usr/include/openssl"
 export OPENSSL_DIR="/usr/include/openssl"
