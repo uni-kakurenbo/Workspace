@@ -25,14 +25,14 @@
 [submodule "CTF/workshop"]
 	path = CTF/workshop
 	url = https://github.com/uni-kakurenbo/trap-workshop-ctf.git
-[submodule "Web/manifest"]
-	path = Web/manifest
+[submodule "Web/SysAd/manifest"]
+	path = Web/SysAd/manifest
 	url = https://github.com/traPtitech/manifest.git
 [submodule "Web/SysAd/dns"]
 	path = Web/SysAd/dns
 	url = ssh://git@git.trap.jp:2200/SysAd/dns.git
-[submodule "Web/traQ_S-UI"]
-	path = Web/traQ_S-UI
+[submodule "Web/SysAd/traQ_S-UI"]
+	path = Web/SysAd/traQ_S-UI
 	url = https://github.com/traPtitech/traQ_S-UI.git
 [submodule "Web/SysAd/nss"]
 	path = Web/SysAd/nss
