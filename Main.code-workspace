@@ -142,7 +142,7 @@
                 "foldStartRegex": "#[\\s]*region[\\s]*(.*)"
             }
         },
-        "workbench.colorTheme": "Solarized Dark",
+        "workbench.colorTheme": "Atom One Dark",
         "cSpell.enabled": false,
         "[python]": {
             "editor.wordBasedSuggestions": "matchingDocuments"
