@@ -37,3 +37,12 @@
 [submodule "Web/SysAd/nss"]
 	path = Web/SysAd/nss
 	url = https://github.com/traPtitech/nss.git
+[submodule "Web/SysAd/traPortfolio"]
+	path = Web/SysAd/traPortfolio
+	url = https://github.com/traPtitech/traPortfolio.git
+[submodule "Web/SysAd/traPortfolio-UI"]
+	path = Web/SysAd/traPortfolio-UI
+	url = https://github.com/traPtitech/traPortfolio-UI.git
+[submodule "Web/SysAd/traPortfolio-Dashboard"]
+	path = Web/SysAd/traPortfolio-Dashboard
+	url = https://github.com/traPtitech/traPortfolio-Dashboard.git
