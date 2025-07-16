@@ -46,3 +46,12 @@
 [submodule "Web/SysAd/traPortfolio-Dashboard"]
 	path = Web/SysAd/traPortfolio-Dashboard
 	url = https://github.com/traPtitech/traPortfolio-Dashboard.git
+[submodule "Web/SysAd/gitea"]
+	path = Web/SysAd/gitea
+	url = https://github.com/traPtitech/gitea.git
+[submodule "Web/SysAd/tokyotech.org"]
+	path = Web/SysAd/tokyotech.org
+	url = ssh://git@git.trap.jp:2200/SysAd/tokyotech.org.git
+[submodule "Web/traO-Judge-exec"]
+	path = Web/traO-Judge-exec
+	url = https://github.com/traP-jp/traO-Judge-exec.git
