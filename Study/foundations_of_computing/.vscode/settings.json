@@ -40,7 +40,24 @@
         "numeric": "cpp",
         "valarray": "cpp",
         "chrono": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "print": "cpp",
+        "format": "cpp",
+        "bitset": "cpp",
+        "deque": "cpp",
+        "forward_list": "cpp",
+        "list": "cpp",
+        "expected": "cpp",
+        "spanstream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "system_error": "cpp",
+        "variant": "cpp",
+        "stacktrace": "cpp",
+        "filesystem": "cpp",
+        "istream": "cpp",
+        "optional": "cpp",
+        "syncstream": "cpp"
     },
     "workbench.colorTheme": "Monokai"
 }

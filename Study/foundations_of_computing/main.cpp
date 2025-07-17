@@ -22,6 +22,11 @@ struct set {
         this->_impl.template assign<UNIQUE>(std::forward<Args>(values)...);
     }
 
+    template<class U>
+    set(std::initializer_list<U> values) {
+        this->_impl.template assign<UNIQUE>(values);
+    }
+
     template<class Set>
     inline auto swap(Set&& other) noexcept {
         this->_impl.swap(other._impl);
@@ -137,16 +142,16 @@ struct rational_number {
 
   public:
     rational_number(T numerator = 0, T denominator = 1) : _numerator(numerator), _denominator(denominator) {
-        if (denominator == 0) throw std::invalid_argument("Denominator cannot be zero.");
+        assert(denominator != 0);
         this->_normalize();
     }
 
 
-    auto numerator() const { return this->_numerator; }
-    auto denominator() const { return this->_denominator; }
+    inline auto numerator() const { return this->_numerator; }
+    inline auto denominator() const { return this->_denominator; }
 
-    auto& numerator() { return this->_numerator; }
-    auto& denominator() { return this->_denominator; }
+    inline auto& numerator() { return this->_numerator; }
+    inline auto& denominator() { return this->_denominator; }
 
 
     auto operator+=(const rational_number& other) {
@@ -266,7 +271,6 @@ struct adaptor_type {
 
 
 } // namespace ranges
-
 
 
 namespace generator {
