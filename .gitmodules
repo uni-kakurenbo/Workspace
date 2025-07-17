@@ -55,6 +55,9 @@
 [submodule "Web/traO-Judge-exec"]
 	path = Web/traO-Judge-exec
 	url = https://github.com/traP-jp/traO-Judge-exec.git
+[submodule "Web/SysAd/traQ"]
+	path = Web/SysAd/traQ
+	url = https://github.com/traPtitech/traQ.git
 [submodule "Web/traO-Judge-frontend"]
 	path = Web/traO-Judge-frontend
 	url = https://github.com/traP-jp/traO-Judge-frontend.git
