@@ -61,3 +61,6 @@
 [submodule "Web/traO-Judge-frontend"]
 	path = Web/traO-Judge-frontend
 	url = https://github.com/traP-jp/traO-Judge-frontend.git
+[submodule "CTF/seccon-beginners-2025"]
+	path = CTF/seccon-beginners-2025
+	url = https://github.com/uni-kakurenbo/seccon-beginners-ctf-2025.git
