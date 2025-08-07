@@ -1,5 +1,9 @@
 #! /bin/bash
 
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
 # checks to see if we are in a windows or linux dir
 function isWinDir {
     case $PWD/ in
