@@ -67,3 +67,6 @@
 [submodule "Web/1m25_12"]
 	path = Web/1m25_12
 	url = https://github.com/traP-jp/1m25_12.git
+[submodule "Study/foundations_of_computing-1"]
+    path = Study/foundations_of_computing-1
+    url = https://github.com/uni-kakurenbo/foundations_of_computing-1.git
