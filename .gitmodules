@@ -64,3 +64,6 @@
 [submodule "CTF/seccon-beginners-2025"]
 	path = CTF/seccon-beginners-2025
 	url = https://github.com/uni-kakurenbo/seccon-beginners-ctf-2025.git
+[submodule "Web/1m25_12"]
+	path = Web/1m25_12
+	url = https://github.com/traP-jp/1m25_12.git
