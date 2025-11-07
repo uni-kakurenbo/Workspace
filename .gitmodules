@@ -70,3 +70,21 @@
 [submodule "Study/foundations_of_computing-1"]
     path = Study/foundations_of_computing-1
     url = https://github.com/uni-kakurenbo/foundations_of_computing-1.git
+[submodule "CTF/EachOther2025/nextjs"]
+    path = CTF/EachOther2025/nextjs
+    url = https://github.com/uni-kakurenbo/eachother2025-nextjs
+[submodule "Web/SysAd/traq-markdown-it"]
+	path = Web/SysAd/traq-markdown-it
+	url = https://github.com/traPtitech/traq-markdown-it.git
+[submodule "Web/SysAd/Checkin-Server"]
+	path = Web/SysAd/Checkin-Server
+	url = https://github.com/traPtitech/Checkin-Server
+[submodule "Web/SysAd/node-traq"]
+	path = Web/SysAd/node-traq
+	url = https://github.com/traPtitech/node-traq.git
+[submodule "Web/trapavilion-grafana"]
+	path = Web/trapavilion-grafana
+	url = https://github.com/traP-jp/trapavilion-grafana.git
+[submodule "Web/Mikke"]
+	path = Web/Mikke
+	url = https://github.com/traP-jp/Mikke.git

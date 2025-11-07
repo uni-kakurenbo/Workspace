@@ -35,8 +35,10 @@ function build() {
 export USE_CCACHE=1
 export CCACHE_DIR=/root/.ccache
 
-export PATH="/home/uni_kakurenbo/.local/bin:$PATH"
-export PATH="/usr/local/go/bin:$PATH"
+PATH="/home/uni_kakurenbo/.local/bin:$PATH"
+PATH="/usr/local/go/bin:$PATH"
+PATH="$(go env GOPATH)/bin:$PATH"
+export PATH
 
 export OPENSSL_INCLUDE_DIR="/usr/include/openssl"
 export OPENSSL_DIR="/usr/include/openssl"
@@ -96,3 +98,5 @@ case ":$PATH:" in
   *":$PNPM_HOME:"*) ;;
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
