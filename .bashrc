@@ -95,10 +95,10 @@ py-env
 
 export PNPM_HOME="/home/uni_kakurenbo/.local/share/pnpm"
 case ":$PATH:" in
-  *":$PNPM_HOME:"*) ;;
-  *) export PATH="$PNPM_HOME:$PATH" ;;
+*":$PNPM_HOME:"*) ;;
+*) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
-eval "`npm completion`"
+eval "$(npm completion)"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
