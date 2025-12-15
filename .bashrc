@@ -99,4 +99,6 @@ case ":$PATH:" in
   *) export PATH="$PNPM_HOME:$PATH" ;;
 esac
 
+eval "`npm completion`"
+
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
